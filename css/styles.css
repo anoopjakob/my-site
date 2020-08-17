@@ -35,6 +35,18 @@ hr {
   width: 4%;
 }
 
+a {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+
+a:hover{
+  color: #eaf6f6;
+}
+
 /******************************CLASS SELECTORS**********************************/
 .top-container {
   background-color: #e0ece4;
@@ -45,8 +57,7 @@ hr {
 .bottom-container {
   color: #11999e;
   background-color: #66bfbf;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 50px 0 20px 0;
   line-height: 2;
 }
 
@@ -147,10 +158,10 @@ hr {
   line-height: 2;
 }
 
-.footer-container{
+/* .footer-container{
   width: 50%;
   margin: 15px auto 1px auto;
-}
+} */
 /*
 .machine-learning-paragraph{
   clear: right;
@@ -166,4 +177,6 @@ hr {
 /********************************ID SELECTORS**********************************/
 #copyright {
   color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
 }
